@@ -4,16 +4,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/cpp/main.cpp" "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CatacombCrawlersC.dir/src/cpp/main.cpp.obj"
+  "C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp" "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GLFW_INCLUDE_NONE"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src"
+  "../lib/glfw/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

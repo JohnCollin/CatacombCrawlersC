@@ -58,38 +58,39 @@ include CMakeFiles\CatacombCrawlersC.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CatacombCrawlersC.dir\flags.make
 
-CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.obj: CMakeFiles\CatacombCrawlersC.dir\flags.make
-CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.obj: ..\src\cpp\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CatacombCrawlersC.dir/src/cpp/main.cpp.obj"
+CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj: CMakeFiles\CatacombCrawlersC.dir\flags.make
+CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj: ..\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.obj /FdCMakeFiles\CatacombCrawlersC.dir\ /FS -c C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj /FdCMakeFiles\CatacombCrawlersC.dir\ /FS -c C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\main.cpp
 <<
 
-CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CatacombCrawlersC.dir/src/cpp/main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x86\cl.exe > CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\cpp\main.cpp
+CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x86\cl.exe > CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\main.cpp
 <<
 
-CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CatacombCrawlersC.dir/src/cpp/main.cpp.s"
+CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.s /c C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CatacombCrawlersC.dir\src\main.cpp.s /c C:\Users\Collin\CLionProjects\CatacombCrawlersC\src\main.cpp
 <<
 
 # Object files for target CatacombCrawlersC
 CatacombCrawlersC_OBJECTS = \
-"CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.obj"
+"CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj"
 
 # External object files for target CatacombCrawlersC
 CatacombCrawlersC_EXTERNAL_OBJECTS =
 
-CatacombCrawlersC.exe: CMakeFiles\CatacombCrawlersC.dir\src\cpp\main.cpp.obj
+CatacombCrawlersC.exe: CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj
 CatacombCrawlersC.exe: CMakeFiles\CatacombCrawlersC.dir\build.make
+CatacombCrawlersC.exe: lib\glfw\src\glfw3.lib
 CatacombCrawlersC.exe: CMakeFiles\CatacombCrawlersC.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CatacombCrawlersC.exe"
 	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CatacombCrawlersC.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CatacombCrawlersC.dir\objects1.rsp @<<
- /out:CatacombCrawlersC.exe /implib:CatacombCrawlersC.lib /pdb:C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CatacombCrawlersC.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:CatacombCrawlersC.exe /implib:CatacombCrawlersC.lib /pdb:C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CatacombCrawlersC.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  lib\glfw\src\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.

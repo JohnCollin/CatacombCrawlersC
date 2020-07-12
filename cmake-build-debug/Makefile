@@ -121,8 +121,48 @@ CatacombCrawlersC: cmake_check_build_system
 
 # fast build rule for target.
 CatacombCrawlersC\fast:
-	$(MAKE) -f src\cpp\CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) src\cpp\CMakeFiles\CatacombCrawlersC.dir\build
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\build
 .PHONY : CatacombCrawlersC\fast
+
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw\fast:
+	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\build
+.PHONY : glfw\fast
+
+src\main.obj: src\main.cpp.obj
+
+.PHONY : src\main.obj
+
+# target to build an object file
+src\main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.obj
+.PHONY : src\main.cpp.obj
+
+src\main.i: src\main.cpp.i
+
+.PHONY : src\main.i
+
+# target to preprocess a source file
+src\main.cpp.i:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.i
+.PHONY : src\main.cpp.i
+
+src\main.s: src\main.cpp.s
+
+.PHONY : src\main.s
+
+# target to generate assembly for a file
+src\main.cpp.s:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.s
+.PHONY : src\main.cpp.s
 
 # Help Target
 help:
@@ -130,9 +170,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... CatacombCrawlersC
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CatacombCrawlersC
+	@echo ... glfw
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

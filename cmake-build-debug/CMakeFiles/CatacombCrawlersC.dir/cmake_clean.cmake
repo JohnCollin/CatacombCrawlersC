@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CatacombCrawlersC.dir/src/cpp/main.cpp.obj"
+  "CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj"
   "CatacombCrawlersC.exe"
   "CatacombCrawlersC.exe.manifest"
   "CatacombCrawlersC.lib"
