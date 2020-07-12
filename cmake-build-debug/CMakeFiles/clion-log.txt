@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Collin\CLionProjects\CatacombCrawlersC
+CMake Error at CMakeLists.txt:3 (add_subdirectory):
+  The source directory
+
+    C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/cpp
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CMakeOutput.log".
