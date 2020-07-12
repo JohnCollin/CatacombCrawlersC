@@ -204,6 +204,33 @@ src\main.cpp.s:
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.s
 .PHONY : src\main.cpp.s
 
+src\window\GameWindow.obj: src\window\GameWindow.cpp.obj
+
+.PHONY : src\window\GameWindow.obj
+
+# target to build an object file
+src\window\GameWindow.cpp.obj:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\window\GameWindow.cpp.obj
+.PHONY : src\window\GameWindow.cpp.obj
+
+src\window\GameWindow.i: src\window\GameWindow.cpp.i
+
+.PHONY : src\window\GameWindow.i
+
+# target to preprocess a source file
+src\window\GameWindow.cpp.i:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\window\GameWindow.cpp.i
+.PHONY : src\window\GameWindow.cpp.i
+
+src\window\GameWindow.s: src\window\GameWindow.cpp.s
+
+.PHONY : src\window\GameWindow.s
+
+# target to generate assembly for a file
+src\window\GameWindow.cpp.s:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\window\GameWindow.cpp.s
+.PHONY : src\window\GameWindow.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,6 +248,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/window/GameWindow.obj
+	@echo ... src/window/GameWindow.i
+	@echo ... src/window/GameWindow.s
 .PHONY : help
 
 

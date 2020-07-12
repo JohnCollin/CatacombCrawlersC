@@ -49,6 +49,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lib/glfw/CMakeLists.txt"
   "../lib/glfw/src/CMakeLists.txt"
   "../lib/glfw/src/glfw_config.h.in"
+  "../src/CMakeLists.txt"
+  "../src/window/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -60,6 +62,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/window/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )

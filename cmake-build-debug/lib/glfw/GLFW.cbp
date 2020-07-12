@@ -5,7 +5,7 @@
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\window\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/lib/glfw"/>
@@ -153,6 +153,12 @@
 		</Unit>
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\window\"/>
 		</Unit>
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/lib/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\glfw\"/>

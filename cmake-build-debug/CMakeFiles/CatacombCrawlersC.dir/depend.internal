@@ -4,5 +4,12 @@
 CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj
  ../lib/glad/include/KHR/khrplatform.h
  ../lib/glad/include/glad/glad.h
- ../lib/glfw/include/GLFW/glfw3.h
+ ../lib/glfw/include/glfw/glfw3.h
  C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h
+CMakeFiles/CatacombCrawlersC.dir/src/window/GameWindow.cpp.obj
+ ../lib/glad/include/KHR/khrplatform.h
+ ../lib/glad/include/glad/glad.h
+ ../lib/glfw/include/glfw/glfw3.h
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.cpp
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h

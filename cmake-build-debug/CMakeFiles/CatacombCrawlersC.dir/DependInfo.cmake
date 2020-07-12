@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp" "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj"
+  "C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.cpp" "C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CatacombCrawlersC.dir/src/window/GameWindow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

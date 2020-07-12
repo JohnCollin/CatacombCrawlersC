@@ -56,11 +56,13 @@ CMAKE_BINARY_DIR = C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-d
 # The main recursive "all" target.
 all: CMakeFiles\CatacombCrawlersC.dir\all
 all: CMakeFiles\glad.dir\all
+all: src\all
 all: lib\glfw\all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: src\preinstall
 preinstall: lib\glfw\preinstall
 
 .PHONY : preinstall
@@ -68,6 +70,7 @@ preinstall: lib\glfw\preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles\CatacombCrawlersC.dir\clean
 clean: CMakeFiles\glad.dir\clean
+clean: src\clean
 clean: lib\glfw\clean
 
 .PHONY : clean
@@ -109,6 +112,42 @@ lib\glfw\src\clean: lib\glfw\src\CMakeFiles\glfw.dir\clean
 .PHONY : lib\glfw\src\clean
 
 #=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src\all: src\window\all
+
+.PHONY : src\all
+
+# Recursive "preinstall" directory target.
+src\preinstall: src\window\preinstall
+
+.PHONY : src\preinstall
+
+# Recursive "clean" directory target.
+src\clean: src\window\clean
+
+.PHONY : src\clean
+
+#=============================================================================
+# Directory level rules for directory src\window
+
+# Recursive "all" directory target.
+src\window\all:
+
+.PHONY : src\window\all
+
+# Recursive "preinstall" directory target.
+src\window\preinstall:
+
+.PHONY : src\window\preinstall
+
+# Recursive "clean" directory target.
+src\window\clean:
+
+.PHONY : src\window\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CatacombCrawlersC.dir
 
 # All Build rule for target.
@@ -116,12 +155,12 @@ CMakeFiles\CatacombCrawlersC.dir\all: CMakeFiles\glad.dir\all
 CMakeFiles\CatacombCrawlersC.dir\all: lib\glfw\src\CMakeFiles\glfw.dir\all
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\depend
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CatacombCrawlersC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CatacombCrawlersC"
 .PHONY : CMakeFiles\CatacombCrawlersC.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\CatacombCrawlersC.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 21
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\CatacombCrawlersC.dir\rule
@@ -143,7 +182,7 @@ CMakeFiles\CatacombCrawlersC.dir\clean:
 CMakeFiles\glad.dir\all:
 	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\depend
 	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target glad"
 .PHONY : CMakeFiles\glad.dir\all
 
 # Build rule for subdir invocation for target.
@@ -170,7 +209,7 @@ CMakeFiles\glad.dir\clean:
 lib\glfw\src\CMakeFiles\glfw.dir\all:
 	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\depend
 	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
 .PHONY : lib\glfw\src\CMakeFiles\glfw.dir\all
 
 # Build rule for subdir invocation for target.

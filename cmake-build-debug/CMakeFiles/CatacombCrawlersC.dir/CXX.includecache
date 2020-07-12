@@ -18,7 +18,7 @@ stdint.h
 KHR/khrplatform.h
 -
 
-../lib/glfw/include/GLFW/glfw3.h
+../lib/glfw/include/glfw/glfw3.h
 stddef.h
 -
 stdint.h
@@ -63,10 +63,18 @@ GL/glext.h
 -
 
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp
-iostream
--
+window/GameWindow.h
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h
+
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.cpp
+GameWindow.h
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h
+
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h
 glad/glad.h
 -
-GLFW/glfw3.h
+glfw/glfw3.h
+-
+iostream
 -
 
