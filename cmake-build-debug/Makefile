@@ -204,6 +204,60 @@ src\main.cpp.s:
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\main.cpp.s
 .PHONY : src\main.cpp.s
 
+src\utility\LogElement.obj: src\utility\LogElement.cpp.obj
+
+.PHONY : src\utility\LogElement.obj
+
+# target to build an object file
+src\utility\LogElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\LogElement.cpp.obj
+.PHONY : src\utility\LogElement.cpp.obj
+
+src\utility\LogElement.i: src\utility\LogElement.cpp.i
+
+.PHONY : src\utility\LogElement.i
+
+# target to preprocess a source file
+src\utility\LogElement.cpp.i:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\LogElement.cpp.i
+.PHONY : src\utility\LogElement.cpp.i
+
+src\utility\LogElement.s: src\utility\LogElement.cpp.s
+
+.PHONY : src\utility\LogElement.s
+
+# target to generate assembly for a file
+src\utility\LogElement.cpp.s:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\LogElement.cpp.s
+.PHONY : src\utility\LogElement.cpp.s
+
+src\utility\Logger.obj: src\utility\Logger.cpp.obj
+
+.PHONY : src\utility\Logger.obj
+
+# target to build an object file
+src\utility\Logger.cpp.obj:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\Logger.cpp.obj
+.PHONY : src\utility\Logger.cpp.obj
+
+src\utility\Logger.i: src\utility\Logger.cpp.i
+
+.PHONY : src\utility\Logger.i
+
+# target to preprocess a source file
+src\utility\Logger.cpp.i:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\Logger.cpp.i
+.PHONY : src\utility\Logger.cpp.i
+
+src\utility\Logger.s: src\utility\Logger.cpp.s
+
+.PHONY : src\utility\Logger.s
+
+# target to generate assembly for a file
+src\utility\Logger.cpp.s:
+	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\src\utility\Logger.cpp.s
+.PHONY : src\utility\Logger.cpp.s
+
 src\window\GameWindow.obj: src\window\GameWindow.cpp.obj
 
 .PHONY : src\window\GameWindow.obj
@@ -248,6 +302,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/utility/LogElement.obj
+	@echo ... src/utility/LogElement.i
+	@echo ... src/utility/LogElement.s
+	@echo ... src/utility/Logger.obj
+	@echo ... src/utility/Logger.i
+	@echo ... src/utility/Logger.s
 	@echo ... src/window/GameWindow.obj
 	@echo ... src/window/GameWindow.i
 	@echo ... src/window/GameWindow.s

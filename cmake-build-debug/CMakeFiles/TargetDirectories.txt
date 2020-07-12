@@ -4,6 +4,8 @@ C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/edi
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/CMakeFiles/edit_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/utility/CMakeFiles/edit_cache.dir
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/utility/CMakeFiles/rebuild_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/window/CMakeFiles/edit_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/window/CMakeFiles/rebuild_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/lib/glfw/CMakeFiles/edit_cache.dir

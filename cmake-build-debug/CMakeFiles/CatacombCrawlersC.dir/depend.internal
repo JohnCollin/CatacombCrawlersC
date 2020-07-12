@@ -5,11 +5,22 @@ CMakeFiles/CatacombCrawlersC.dir/src/main.cpp.obj
  ../lib/glad/include/KHR/khrplatform.h
  ../lib/glad/include/glad/glad.h
  ../lib/glfw/include/glfw/glfw3.h
+ ../src/utility/LogElement.h
+ ../src/utility/Logger.h
  C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp
  C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h
+CMakeFiles/CatacombCrawlersC.dir/src/utility/LogElement.cpp.obj
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/LogElement.cpp
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/LogElement.h
+CMakeFiles/CatacombCrawlersC.dir/src/utility/Logger.cpp.obj
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/LogElement.h
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/Logger.cpp
+ C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/Logger.h
 CMakeFiles/CatacombCrawlersC.dir/src/window/GameWindow.cpp.obj
  ../lib/glad/include/KHR/khrplatform.h
  ../lib/glad/include/glad/glad.h
  ../lib/glfw/include/glfw/glfw3.h
+ ../src/utility/LogElement.h
+ ../src/utility/Logger.h
  C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.cpp
  C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.h

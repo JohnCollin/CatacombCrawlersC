@@ -115,19 +115,40 @@ lib\glfw\src\clean: lib\glfw\src\CMakeFiles\glfw.dir\clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
+src\all: src\utility\all
 src\all: src\window\all
 
 .PHONY : src\all
 
 # Recursive "preinstall" directory target.
+src\preinstall: src\utility\preinstall
 src\preinstall: src\window\preinstall
 
 .PHONY : src\preinstall
 
 # Recursive "clean" directory target.
+src\clean: src\utility\clean
 src\clean: src\window\clean
 
 .PHONY : src\clean
+
+#=============================================================================
+# Directory level rules for directory src\utility
+
+# Recursive "all" directory target.
+src\utility\all:
+
+.PHONY : src\utility\all
+
+# Recursive "preinstall" directory target.
+src\utility\preinstall:
+
+.PHONY : src\utility\preinstall
+
+# Recursive "clean" directory target.
+src\utility\clean:
+
+.PHONY : src\utility\clean
 
 #=============================================================================
 # Directory level rules for directory src\window
@@ -155,12 +176,12 @@ CMakeFiles\CatacombCrawlersC.dir\all: CMakeFiles\glad.dir\all
 CMakeFiles\CatacombCrawlersC.dir\all: lib\glfw\src\CMakeFiles\glfw.dir\all
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\depend
 	$(MAKE) -f CMakeFiles\CatacombCrawlersC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CatacombCrawlersC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target CatacombCrawlersC"
 .PHONY : CMakeFiles\CatacombCrawlersC.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\CatacombCrawlersC.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 23
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CatacombCrawlersC.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\CatacombCrawlersC.dir\rule
@@ -182,7 +203,7 @@ CMakeFiles\CatacombCrawlersC.dir\clean:
 CMakeFiles\glad.dir\all:
 	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\depend
 	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target glad"
 .PHONY : CMakeFiles\glad.dir\all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +230,7 @@ CMakeFiles\glad.dir\clean:
 lib\glfw\src\CMakeFiles\glfw.dir\all:
 	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\depend
 	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Collin\CLionProjects\CatacombCrawlersC\cmake-build-debug\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target glfw"
 .PHONY : lib\glfw\src\CMakeFiles\glfw.dir\all
 
 # Build rule for subdir invocation for target.

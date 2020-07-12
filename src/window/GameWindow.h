@@ -13,6 +13,8 @@ static const int OPENGL_MINOR_VERSION = 2;
 
 #include <iostream>
 
+#include "utility/Logger.h"
+
 namespace cccgame
 {
 	class GameWindow
@@ -31,7 +33,6 @@ namespace cccgame
 		uint32_t InitializeGLFW();
 		void HandleGLFWWindowHints();
 		uint32_t ConstructGLFWWindow();
-
 		uint32_t InitializeGLAD();
 	};
 }

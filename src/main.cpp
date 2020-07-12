@@ -6,6 +6,8 @@
 
 int main()
 {
+	linfo << "Test!" << en;
+
 	cccgame::GameWindow gameWindow = cccgame::GameWindow();
 	if(!gameWindow.ConstructWindowElements())
 		return -1;

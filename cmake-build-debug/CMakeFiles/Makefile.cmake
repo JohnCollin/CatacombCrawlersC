@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lib/glfw/src/CMakeLists.txt"
   "../lib/glfw/src/glfw_config.h.in"
   "../src/CMakeLists.txt"
+  "../src/utility/CMakeLists.txt"
   "../src/window/CMakeLists.txt"
   )
 
@@ -63,6 +64,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/utility/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/window/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Collin/CLionProjects/CatacombCrawlersC/src
+# Install script for directory: C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,15 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/utility/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/src/window/cmake_install.cmake")
 endif()
 

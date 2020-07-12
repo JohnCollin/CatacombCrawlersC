@@ -6,7 +6,7 @@
 
 void cccgame::GameWindow::GlobalGLFWErrorCallback(int error, const char *description)
 {
-	std::cerr << "GLFW Error [" << error << "]: " << description << std::endl;
+	lerr << "GLFW Error [" << error << "]: " << description << en;
 }
 
 uint32_t cccgame::GameWindow::ConstructWindowElements()
@@ -16,7 +16,7 @@ uint32_t cccgame::GameWindow::ConstructWindowElements()
 	if(!InitializeGLFW() || !InitializeGLAD())
 		return -1;
 
-	std::cout << "Succesfully Constructed Window Elements" << std::endl;
+	linfo << "Succesfully Constructed Window Elements" << en;
 
 	return 0;
 }
@@ -47,11 +47,11 @@ uint32_t cccgame::GameWindow::CleanupWindowElements()
 
 uint32_t cccgame::GameWindow::InitializeGLFW()
 {
-	std::cout << "Initializing GLFW..." << std::endl;
+	linfo << "Initializing GLFW..." << en;
 
 	if(!glfwInit())
 	{
-		std::cerr << "Unable to Initialize GLFW..." << std::endl;
+		lerr << "Unable to Initialize GLFW..." << en;
 
 		return -1;
 	}
@@ -70,7 +70,7 @@ uint32_t cccgame::GameWindow::InitializeGLAD()
 
 	if(!gladLoadGL())
 	{
-		std::cerr << "Unable to load OpenGL from GLAD." << std::endl;
+		lerr << "Unable to load OpenGL from GLAD." << en;
 
 		glfwDestroyWindow(windowHandle);
 		glfwTerminate();
@@ -95,7 +95,7 @@ uint32_t cccgame::GameWindow::ConstructGLFWWindow()
 	windowHandle = glfwCreateWindow(1280, 720, "CatacombCrawlersC", nullptr, nullptr);
 	if(!windowHandle)
 	{
-		std::cerr << "Unable to Create the GLFW Window" << std::endl;
+		lerr << "Unable to Create the GLFW Window" << en;
 
 		glfwTerminate();
 

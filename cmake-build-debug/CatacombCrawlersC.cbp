@@ -5,7 +5,7 @@
 		<Option title="CatacombCrawlersC"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\window\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\utility\;CMake Files\src\window\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug"/>
@@ -279,6 +279,18 @@
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/main.cpp">
 			<Option target="CatacombCrawlersC"/>
 		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/LogElement.cpp">
+			<Option target="CatacombCrawlersC"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/LogElement.h">
+			<Option target="CatacombCrawlersC"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/Logger.cpp">
+			<Option target="CatacombCrawlersC"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/Logger.h">
+			<Option target="CatacombCrawlersC"/>
+		</Unit>
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/GameWindow.cpp">
 			<Option target="CatacombCrawlersC"/>
 		</Unit>
@@ -290,6 +302,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\utility\"/>
 		</Unit>
 		<Unit filename="C:/Users/Collin/CLionProjects/CatacombCrawlersC/src/window/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\window\"/>
