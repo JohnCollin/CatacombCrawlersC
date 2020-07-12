@@ -67,5 +67,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CatacombCrawlersC.dir/DependInfo.cmake"
+  "CMakeFiles/glad.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

@@ -125,6 +125,19 @@ CatacombCrawlersC\fast:
 .PHONY : CatacombCrawlersC\fast
 
 #=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) glad
+.PHONY : glad
+
+# fast build rule for target.
+glad\fast:
+	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\build
+.PHONY : glad\fast
+
+#=============================================================================
 # Target rules for targets named glfw
 
 # Build rule for target.
@@ -136,6 +149,33 @@ glfw: cmake_check_build_system
 glfw\fast:
 	$(MAKE) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) lib\glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
+
+lib\glad\src\glad.obj: lib\glad\src\glad.c.obj
+
+.PHONY : lib\glad\src\glad.obj
+
+# target to build an object file
+lib\glad\src\glad.c.obj:
+	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\lib\glad\src\glad.c.obj
+.PHONY : lib\glad\src\glad.c.obj
+
+lib\glad\src\glad.i: lib\glad\src\glad.c.i
+
+.PHONY : lib\glad\src\glad.i
+
+# target to preprocess a source file
+lib\glad\src\glad.c.i:
+	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\lib\glad\src\glad.c.i
+.PHONY : lib\glad\src\glad.c.i
+
+lib\glad\src\glad.s: lib\glad\src\glad.c.s
+
+.PHONY : lib\glad\src\glad.s
+
+# target to generate assembly for a file
+lib\glad\src\glad.c.s:
+	$(MAKE) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\lib\glad\src\glad.c.s
+.PHONY : lib\glad\src\glad.c.s
 
 src\main.obj: src\main.cpp.obj
 
@@ -171,9 +211,13 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... CatacombCrawlersC
+	@echo ... glad
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glfw
+	@echo ... lib/glad/src/glad.obj
+	@echo ... lib/glad/src/glad.i
+	@echo ... lib/glad/src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

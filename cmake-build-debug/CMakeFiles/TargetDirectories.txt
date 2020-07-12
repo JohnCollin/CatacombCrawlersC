@@ -1,4 +1,5 @@
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/CatacombCrawlersC.dir
+C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/glad.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/Collin/CLionProjects/CatacombCrawlersC/cmake-build-debug/lib/glfw/CMakeFiles/edit_cache.dir

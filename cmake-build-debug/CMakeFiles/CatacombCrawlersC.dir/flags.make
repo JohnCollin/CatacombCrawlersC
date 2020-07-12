@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd   -std:c++17
 
 CXX_DEFINES = -DGLFW_INCLUDE_NONE
 
-CXX_INCLUDES = -IC:\Users\Collin\CLionProjects\CatacombCrawlersC\src -IC:\Users\Collin\CLionProjects\CatacombCrawlersC\lib\glfw\include 
+CXX_INCLUDES = -IC:\Users\Collin\CLionProjects\CatacombCrawlersC\src -IC:\Users\Collin\CLionProjects\CatacombCrawlersC\lib\glfw\include -IC:\Users\Collin\CLionProjects\CatacombCrawlersC\lib\glad\include 
 
